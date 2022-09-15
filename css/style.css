@@ -35,11 +35,11 @@
 }
 
 
-
+/* 744 */
 /* ----------------------------------- */
 /* Section 1 Media Querry for max 700px Screens */
 
-@media (max-width: 744px) { 
+@media (max-width: 744px){ 
     #sect-01-cont h1{
         text-align: center;
     }
@@ -53,6 +53,25 @@
         font-size: 13px;
         padding-left: 35px;
         justify-content: space-between;
+    }
+
+    #sect-04-cont div{
+        justify-content: center;
+    }
+
+    #copyright h5{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #sect-03-cont-img1 img{
+        padding-left: 20%;
+        /* justify-content: center; */
+    }
+
+    #sect-03-cont-img2 img{
+        padding-left: 20%;
+        /* justify-content: center; */
     }
 }
 
@@ -135,12 +154,18 @@ hr{
     background-color: #d6d5d5;
 }
 
-#sect-03-cont-img1{
-    padding-left: 18%;
-}
+@media (max-width: 1000px){
+    #sect-03-cont-login-button {
+        padding-left: 40%;
+    }
 
-#sect-03-cont-img2 {
-    height: 340px;
+    #sect-03-cont-submit-button {
+        padding-left: 35%;
+    }
+
+    #copyright h5{
+        font-size: 15px;
+    }
 }
 
 /* ----------------------------------- */
