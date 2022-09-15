@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Veries's Portfolio</title>
+    <title>Veries's Portfolio - Sign-Up</title>
 </head>
 <body>
     <!-- Header -->
@@ -21,7 +21,7 @@
                     <h1 class="header-title">PORTFOLIO HOME</h1>
                 </div>
                 <div id="sect-01-top-nav" class="col-md-6 d-flex justify-content-md-between justify-content-md-end">
-                    <a href="index.html">ABOUT ME</a>
+                    <a href="index.html">HOME</a>
                     <a href="#link">PORTFOLIO</a>
                     <a href="#link">BLOG</a>
                     <a href="#link">BIO</a>
@@ -80,38 +80,131 @@
         <!-- Login -->
         <section class="section-3">
             <div id="sect-03-cont" class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2 class="login">LOGIN</h2>
+
                         <!-- form -->
-                        <form action="">
-                            <!-- Username -->
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">@</span>
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <h2 class="login">SIGN-UP</h2>
+
+                            <div class="col-md-4">
+                              <label for="validationCustom01" class="form-label">First Name</label>
+                              <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
                             </div>
-
-                            <!-- Password -->
-
-                            <label for="inputPassword" class="col-sm-4 col-form-label"><span id="password-text">Password</span></label>
-                            <div class="mb-3 row">
-                                <div class="col-sm-12">
-                                  <input type="password" class="form-control" id="inputPassword">
+                            <div class="col-md-4">
+                              <label for="validationCustom02" class="form-label">Last Name</label>
+                              <input type="text" class="form-control" id="validationCustom02" placeholder="Last Name" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <label for="validationCustomUsername" class="form-label">Username</label>
+                              <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="User Name" required>
+                                <div class="invalid-feedback">
+                                  Please choose a username.
                                 </div>
                               </div>
-                            
-                            <div id="sect-03-cont-login-button" class="login-button">
-                                <button type="button" class="btn btn-dark">Login</button>
                             </div>
-                        </form>
-                    </div>
-                    <div id="sect-03-cont-img1" class="col-md-4">
-                        <img src="img/squares.png" alt="">
-                    </div>
-                    <div id="sect-03-cont-img2" class="col-md-4 d-flex justify-content-md-end">
-                        <img src="/img/me2.jpg" alt="">
-                    </div>
-                </div>
+                            <div class="col-md-6">
+                              <label for="validationCustom03" class="form-label">City</label>
+                              <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                              <div class="invalid-feedback">
+                                Please provide a valid city.
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <label for="validationCustom04" class="form-label">State or Territory</label>
+                              <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>AL</option>
+                                <option>AK</option>
+                                <option>AZ</option>
+                                <option>AR</option>
+                                <option>AS</option>
+                                <option>CA</option>
+                                <option>CO</option>
+                                <option>CT</option>
+                                <option>DE</option>
+                                <option>DC</option>
+                                <option>FL</option>
+                                <option>GA</option>
+                                <option>GU</option>
+                                <option>HI</option>
+                                <option>ID</option>
+                                <option>IL</option>
+                                <option>IN</option>
+                                <option>IA</option>
+                                <option>KS</option>
+                                <option>KY</option>
+                                <option>LA</option>
+                                <option>ME</option>
+                                <option>MD</option>
+                                <option>MA</option>
+                                <option>MI</option>
+                                <option>MN</option>
+                                <option>MS</option>
+                                <option>MO</option>
+                                <option>MT</option>
+                                <option>NE</option>
+                                <option>NV</option>
+                                <option>NH</option>
+                                <option>NJ</option>
+                                <option>NM</option>
+                                <option>NY</option>
+                                <option>NC</option>
+                                <option>ND</option>
+                                <option>CM</option>
+                                <option>OH</option>
+                                <option>OK</option>
+                                <option>OR</option>
+                                <option>PA</option>
+                                <option>PR</option>
+                                <option>RI</option>
+                                <option>SC</option>
+                                <option>SD</option>
+                                <option>TN</option>
+                                <option>TX</option>
+                                <option>TT</option>
+                                <option>UT</option>
+                                <option>VT</option>
+                                <option>VA</option>
+                                <option>VI</option>
+                                <option>WA</option>
+                                <option>WV</option>
+                                <option>WI</option>
+                                <option>WY</option>
+                              </select>
+                              <div class="invalid-feedback">
+                                Please select a valid state.
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <label for="validationCustom05" class="form-label">Zip</label>
+                              <input type="text" class="form-control" id="validationCustom05" placeholder="Zip Code" required>
+                              <div class="invalid-feedback">
+                                Please provide a valid zip.
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                  Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                  You must agree before submitting.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <button class="btn btn-dark" type="submit">Submit form</button>
+                            </div>
+                          </form>
+                    
             </div>
         </section>
 
