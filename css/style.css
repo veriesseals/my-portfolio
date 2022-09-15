@@ -35,11 +35,24 @@
 }
 
 
+
+/* ----------------------------------- */
+/* Footer Sect 3b */
+
+#horizontal-line2 {
+    padding-top: 20px;
+    background-color: #323030;
+}
+
+
+/* ----------------------------------- */
+/* Footer Sect 4 */
+
 /* 744 */
 /* ----------------------------------- */
 /* Section 1 Media Querry for max 700px Screens */
 
-@media (max-width: 744px){ 
+@media (max-width: 751px){ 
     #sect-01-cont h1{
         text-align: center;
     }
@@ -55,23 +68,24 @@
         justify-content: space-between;
     }
 
-    #sect-04-cont div{
-        justify-content: center;
-    }
-
+    
     #copyright h5{
         font-size: 16px;
         text-align: center;
     }
-
+    
     #sect-03-cont-img1 img{
         padding-left: 20%;
         /* justify-content: center; */
     }
-
+    
     #sect-03-cont-img2 img{
         padding-left: 20%;
         /* justify-content: center; */
+    }
+
+    #sect-04-cont div{
+        justify-content: center;
     }
 }
 
@@ -88,6 +102,15 @@
         font-size: 13px;
         padding-left: 35px;
         justify-content: space-between;
+    }
+}
+
+/* ----------------------------------- */
+/* Section 1 Media Querry for max 775px Screens */
+
+@media (max-width: 775px){
+    #top-nav-button{
+        padding-left: 40%;
     }
 }
 
@@ -127,17 +150,16 @@ hr{
     background-color: #323030;
 }
 
-
-#sect-03-cont-login-button{
-    padding-left: 80%;
-    font-family: 'Barlow', sans-serif;
-}
-
 #sect-02-cont {
     background-color: #323030;
 }
 /* ----------------------------------- */
 /* Login Sect 3 */
+
+#sect-03-cont-login-button{
+    padding-left: 80%;
+    font-family: 'Barlow', sans-serif;
+}
 
 .login{
     padding-bottom: 10px;
@@ -154,6 +176,13 @@ hr{
     background-color: #d6d5d5;
 }
 
+#sect-03-cont-img2 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 @media (max-width: 1000px){
     #sect-03-cont-login-button {
         padding-left: 40%;
@@ -168,18 +197,9 @@ hr{
     }
 }
 
-/* ----------------------------------- */
-/* Footer Sect 3b */
-
-#horizontal-line2 {
-    padding-top: 20px;
-    background-color: #323030;
+#sect-03-cont-img3 img{
+    width: 1200px;
 }
-
-
-/* ----------------------------------- */
-/* Footer Sect 4 */
-
 #sect-04-cont{
     padding-top: 25px;
     padding-bottom: 25px;
