@@ -34,23 +34,8 @@
     font-family: 'Barlow', sans-serif;
 }
 
-
-
 /* ----------------------------------- */
-/* Footer Sect 3b */
-
-#horizontal-line2 {
-    padding-top: 20px;
-    background-color: #323030;
-}
-
-
-/* ----------------------------------- */
-/* Footer Sect 4 */
-
-/* 744 */
-/* ----------------------------------- */
-/* Section 1 Media Querry for max 700px Screens */
+/* Section 1 Media Queries */
 
 @media (max-width: 751px){ 
     #sect-01-cont h1{
@@ -61,36 +46,13 @@
         padding-left: 40%;
         
     }
-    
-    #sect-01-top-nav {
-        font-size: 13px;
-        padding-left: 35px;
-        justify-content: space-between;
-    }
-
-    
-    #copyright h5{
-        font-size: 16px;
-        text-align: center;
-    }
-    
-    #sect-03-cont-img1 img{
-        padding-left: 20%;
-        /* justify-content: center; */
-    }
-    
-    #sect-03-cont-img2 img{
-        padding-left: 20%;
-        /* justify-content: center; */
-    }
-
-    #sect-04-cont div{
-        justify-content: center;
-    }
 }
 
-/* ----------------------------------- */
-/* Section 1 Media Querry for max 1006px Screens */
+@media (max-width: 775px){
+    #top-nav-button{
+        padding-left: 40%;
+    }
+}
 
 @media (max-width: 1006px) { 
     #sect-01-cont h1{
@@ -104,18 +66,6 @@
         justify-content: space-between;
     }
 }
-
-/* ----------------------------------- */
-/* Section 1 Media Querry for max 775px Screens */
-
-@media (max-width: 775px){
-    #top-nav-button{
-        padding-left: 40%;
-    }
-}
-
-/* ----------------------------------- */
-/* Section 1 Media Querry for max 1124px Screens */
 
 @media (max-width: 1124px) { 
     #sect-01-cont h1{
@@ -150,9 +100,22 @@ hr{
     background-color: #323030;
 }
 
+#article-line2{
+    margin-top: 14%;
+}
+
+#article-line1 hr{
+    border: 2px solid rgb(48, 46, 47);
+}
+
+#article-line2 hr{
+    border: 2px solid rgb(48, 46, 47);
+}
+
 #sect-02-cont {
     background-color: #323030;
 }
+
 /* ----------------------------------- */
 /* Login Sect 3 */
 
@@ -183,6 +146,43 @@ hr{
     border-bottom-right-radius: 5px;
 }
 
+#sect-03-cont-img3 img{
+    width: 1200px;
+}
+
+
+#bio-paragraph1{
+    text-indent: 50px;
+}
+
+#bio-paragraph2{
+    text-indent: 50px;
+}
+#article-line2{
+    margin-top: 11%;
+}
+
+#military-pic1{
+    margin-top: 5%;
+    padding-left: 7%;
+}
+
+#military-pic2{
+    margin-top: 40%;
+    padding-left: 7%;
+}
+
+/* ----------------------------------- */
+/* Footer Sect 3b */
+
+#horizontal-line2 {
+    padding-top: 20px;
+    background-color: #323030;
+}
+
+/* ----------------------------------- */
+/* Login Sect 3 Media Queries*/
+
 @media (max-width: 1000px){
     #sect-03-cont-login-button {
         padding-left: 40%;
@@ -195,11 +195,33 @@ hr{
     #copyright h5{
         font-size: 15px;
     }
+
 }
 
-#sect-03-cont-img3 img{
-    width: 1200px;
+@media (max-width: 758px){
+    .login{
+        text-align: center;
+    }
+
+    .sect-03-about-me{
+        text-align: center;
+    }
+
+    #military-pic1{
+        margin: 0;
+        padding: 10%;
+    }
+
+    #military-pic2{
+        margin: 0;
+        padding: 10%;
+    }
 }
+
+
+/* ----------------------------------- */
+/* Footer Sect 4 */
+
 #sect-04-cont{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -217,4 +239,25 @@ hr{
     color: whitesmoke;
     font-family: 'Barlow', sans-serif;
     opacity: 25%;
+}
+
+@media (max-width: 751px){ 
+    #copyright h5{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #sect-03-cont-img1 img{
+        padding-left: 20%;
+        /* justify-content: center; */
+    }
+    
+    #sect-03-cont-img2 img{
+        padding-left: 20%;
+        /* justify-content: center; */
+    }
+
+    #sect-04-cont div{
+        justify-content: center;
+    }
 }
