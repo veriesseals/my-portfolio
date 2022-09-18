@@ -117,11 +117,22 @@ hr{
 }
 
 /* ----------------------------------- */
+/* main Section 2a */
+
+.git-card-combo h5, p, a{
+    text-align: center;
+}
+
+/* ----------------------------------- */
 /* Login Sect 3 */
 
 #sect-03-cont-login-button{
     padding-left: 80%;
     font-family: 'Barlow', sans-serif;
+}
+
+#sect-03-cont-login-button a{
+    color: whitesmoke;
 }
 
 .login{
@@ -148,6 +159,14 @@ hr{
 
 #sect-03-cont-img3 img{
     width: 1200px;
+}
+
+#sect-03-cont-play-button {
+    margin-left: 88%;
+}
+
+#sect-03-cont-play-button a{
+    color: whitesmoke;
 }
 
 
@@ -215,6 +234,10 @@ hr{
     #military-pic2{
         margin: 0;
         padding: 10%;
+    }
+
+    #sect-03-cont-play-button {
+        margin-left: 35%;
     }
 }
 
