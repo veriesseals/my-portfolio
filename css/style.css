@@ -487,9 +487,9 @@ hr{
 }
 
 @media (max-width: 751px){ 
-        #copyright h5{
-            font-size: 16px;
-            text-align: center;
+    #copyright h5{
+        font-size: 16px;
+        text-align: center;
     }
     
     #sect-03-cont-img1 img{
@@ -533,6 +533,6 @@ hr{
 
     .blog-post{
         margin-left:30%;
-        }
     }
+    
 }
