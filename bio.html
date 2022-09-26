@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>ABOUT ME</title>
+    <title>MY BIO</title>
 </head>
 <body>
     <!-- Header -->
@@ -82,57 +82,78 @@
         <section class="section-3">
             <div id="sect-03-cont" class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h2 class="login">USER NAME</h2>
-                        <div id="sect-03-cont-login-button" class="login-button">
+                    <div class="d-flex">
+                        <div class="col-md-2">
+                            <h2 class="login">USER NAME</h2>
+                        </div>
+                        <div id="sect-03-cont-login-button" class="login-button col-md-10">
                             <button type="button" class="btn btn-dark"><a href="index.html">Logout</a></button>
                         </div>
                     </div>
-                    <div class="col-md-4">
+
+                    <!-- New Code -->
+
+                    <!-- Bio Article -->
+                    <div class="section-03-cont-block">
+                        <div class="sect-03-cont-article">
                         <div>
                             <h3 class="sect-03-about-me">BIO</h3>
-                            <div id="article-line1">
-                                <hr>
-                            </div>
                         </div>
-                        <!-- Paragraph 1 About Me-->
-                        <div id="bio-paragraph1" class="col">
-                            <p>
-                                My name is Veries Seals III. I am 45 years old. I have been married to my wonderful wife, Jerralyn Seals, for 17 years. We have one son together. I have 4 kids all together whom I love dearly. 
-
-                            </p>
-                            <p> 
-                                Growing up learning traditional art, I was able to transition into graphic design and some mild 3D modeling animation. I have had the pleasure of working freelanced in the graphic art field for over 20 years. Because of the lack of income for fees, I left college before completion and served in the U.S. Army. 
-                            </p>
                         </div>
-                        <div id="military-pic1">
-                            <img src="img/me-army1.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-
-                    <!-- Paragraph 2 About Me-->
-                    <div class="col-md-4">
-                        <div id="article-line2">
+                        <div>
+                        <div id="article-line1">
                             <hr>
                         </div>
-                        <div id="bio-paragraph2" class="col">
-                            <p>
-                                In the U.S. Army, I started as a Computer Automation System Repairer. We performed maintenance of microcomputers and electro-mechanical telecommunications terminal equipment. So, I delt more with computer hardware trouble shooting. Eventually my job title changed to Special Electrical Dev Repairer or Computer/Detection System Repairer. I had an opportunity to serve our country by helping fight in the war in Iraq.   
-                            <p/>
-                            <p>
-                                Once I came home, I served in General and Assistant Manager roles over popular restaurants. Which I hated by the way. Those jobs lead me far away from my love of computer tech, art, and the design field. Now that I am much older, my dream of becoming a software developer is still alive today. I am currently working to make that dream a reality.  
-                            </p>
-                        </div>
-                        <div id="military-pic2">
-                            <img src="img/me-army2.png" alt="" class="img-fluid">
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="about-my-port-sect d-flex">
+                            <div class="col-md-6">
+                                <!-- Paragraph 1 Bio-->
+                                <div id="bio-paragraph1" class="col">
+                                    <p>
+                                        My name is Veries Seals III. I am 45 years old. I have been married to my wonderful wife, Jerralyn Seals, for 17 years. We have one son together. I have 4 kids all together whom I love dearly. 
+        
+                                    </p>
+                                    <p> 
+                                        Growing up learning traditional art, I was able to transition into graphic design and some mild 3D modeling animation. I have had the pleasure of working freelanced in the graphic art field for over 20 years. Because of the lack of income for fees, I left college before completion and served in the U.S. Army. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Paragraph 2 Bio-->
+                            <div id="bio-paragraph2" class="col">
+                                <p>
+                                    In the U.S. Army, I started as a Computer Automation System Repairer. We performed maintenance of microcomputers and electro-mechanical telecommunications terminal equipment. So, I delt more with computer hardware trouble shooting. Eventually my job title changed to Special Electrical Dev Repairer or Computer/Detection System Repairer. I had an opportunity to serve our country by helping fight in the war in Iraq.   
+                                <p/>
+                                <p>
+                                    Once I came home, I served in General and Assistant Manager roles over popular restaurants. Which I hated by the way. Those jobs lead me far away from my love of computer tech, art, and the design field. Now that I am much older, my dream of becoming a software developer is still alive today. I am currently working to make that dream a reality.  
+                                </p>
+                            </div>
                     
+                        </div>
+                    </div>
+                
+            </div>
+            <!-- Military Pics -->
+            <div class="military-pic-group d-flex">
+                <div id="military-pic1" class="col-md-6">
+                    <img src="img/me-army1.png" alt="" class="img-fluid">
                 </div>
-                <div id="sect-03-cont-play-button" class="login-button">
-                    <button type="button" class="btn btn-dark"><a href="https://www.youtube.com/watch?v=Mby09PGaPiE" target="_blank">Play Video</a></button>
+
+                <div id="military-pic2" class="col-md-6">
+                    <img src="img/me-army2.png" alt="" class="img-fluid">
                 </div>
             </div>
+            <!-- End Military Pics -->
+        </div>
+        <div class="play-button-box">
+            <div id="sect-03-cont-play-button" class="login-button">
+                <button type="button" class="btn btn-dark"><a href="https://www.youtube.com/watch?v=Mby09PGaPiE" target="_blank">Play Video</a></button>
+            </div>
+
+        </div>
         </section>
 
         <!-- Horizontal Line -->
