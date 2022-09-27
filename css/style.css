@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px dotted red
-}
+} */
 
 /* ----------------------------------- */
 /* Section 1 */
@@ -162,7 +162,7 @@ hr{
 }
 
 #sect-03-cont-play-button{
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 
 .login{
@@ -192,7 +192,6 @@ hr{
 }
 
 #sect-03-cont-play-button {
-    margin-top: 1%;
     margin-left: 88%;
 }
 
@@ -230,12 +229,10 @@ hr{
 }
 
 #military-pic1{
-    /* margin-top: 10%; */
     padding-left: 23%;
 }
 
 #military-pic2{
-    /* margin-top: 10%; */
     padding-left: 22%;
 }
 
@@ -338,6 +335,20 @@ hr{
 
 #section-03-manage a:active{
     text-decoration: none;
+}
+
+#military-pic1 img{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#military-pic2 img{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 
