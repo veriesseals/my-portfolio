@@ -12,6 +12,7 @@
 
 #sect-01-top-nav {
     padding-top: 1.5%;
+    text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
 }
 
@@ -45,11 +46,13 @@
 
 #top-nav-button a{
     color: #eef3f7;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
 .header-title{
     color: #eef3f7;
+    text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
 }
 
@@ -141,7 +144,7 @@ hr{
     background-color: #eef3f7
 }
 
-#sect-03-cont-login-button a{
+#sect-03-cont-login-button a {
     color: #eef3f7;
 }
 
@@ -161,16 +164,29 @@ hr{
     text-decoration: none;
 }
 
-#sect-03-cont-play-button{
+#sect-03-cont-play-button {
     padding-bottom: 2%;
 }
 
-.login{
+#sect-03-cont-submit-button button{
+    text-transform: uppercase;
+}
+
+.login {
     padding-bottom: 10px;
+    text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
 }
 
-#password-text{
+.login-button button {
+    text-transform: uppercase;
+}
+
+.sect-03-about-me {
+    text-transform: uppercase;
+}
+
+#password-text {
     font-family: 'Barlow', sans-serif;
 }
 
@@ -242,6 +258,7 @@ hr{
 
 #sect-03-blog-div{
     width: 200px;
+    text-transform: uppercase;
     border-right: .2rem solid;
 }
 
@@ -337,6 +354,14 @@ hr{
     text-decoration: none;
 }
 
+.form-label{
+    font-family: 'Barlow', sans-serif;
+}
+
+.placeholder {
+    font-family: 'Barlow', sans-serif;
+}
+
 #military-pic1 img{
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -349,6 +374,10 @@ hr{
     border-top-right-radius: 4px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+}
+
+#sect-03-cont-submit-button {
+    margin-left: 70%;
 }
 
 
@@ -427,15 +456,42 @@ hr{
         margin-left: 1%;
     }
 
-    #blog-items-right{
-        margin-left: 20%;
+    /* #blog-items-right div{
+        margin-left: 55px;
+    } */
+
+    #sect-03-cont-submit-button button{
+        display: flex;
+        flex-direction: column;
+        margin-top: 55%;
     }
 
     .blog-post{
         margin-left:30%;
     }
 
-    
+    .bottom-nav-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 10%;
+    }
+
+    .about-my-port-sect{
+        display: flex;
+        flex-direction: column;
+        padding-left: 18%;
+    }
+
+    .bottom-nav-list-items-vslash {
+        /* display: none; */
+        /* visibility: hidden; */
+    }
+
+    #copyright{
+        padding-top: 5%;
+    }
+
 }
 
 
@@ -509,10 +565,6 @@ hr{
 @media (max-width: 1000px){
     #sect-03-cont-login-button {
         padding-left: 40%;
-    }
-
-    #sect-03-cont-submit-button {
-        padding-left: 35%;
     }
 
     #copyright h5{
@@ -629,6 +681,41 @@ hr{
 }
 
 /* ----------------------------------- */
+/* Bottom Nav */
+
+.bottom-nav{
+    padding-top: 3%;
+    background-color: #242e38;
+}
+
+.bottom-nav-list li{
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    color: #eef3f7
+}
+
+.bottom-nav-list li a{
+    color: #eef3f7
+}
+
+.bottom-nav-list li a:link {
+    text-decoration: none;
+}
+
+.bottom-nav-list li a:visted {
+    text-decoration: none;
+}
+
+.bottom-nav-list li a:hover {
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.bottom-nav-list li a:active {
+    text-decoration: underline;
+}
+
+/* ----------------------------------- */
 /* Footer Sect 4 */
 
 #sect-04-cont{
@@ -675,6 +762,7 @@ hr{
 
 #copyright h5 {
     font-size: 14px;
+    text-transform: uppercase;
     opacity: 55%;
 }
 
