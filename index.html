@@ -17,62 +17,45 @@
     <header class="top-header">
         <div id="sect-01-cont" class="container-fluid">
             <div class="row">
-                <div class="col-md-3 header-title d-flex">
-                    <!-- hamburger-menu -->
-                                        <!--    Made by Erik Terwan    -->
-                        <!--   24th of November 2015   -->
-                        <!--        MIT License        -->
-                        <nav role="navigation d-flex">
-                            <div id="menuToggle">
-                            <!--
-                            A fake / hidden checkbox is used as click reciever,
-                            so you can use the :checked selector on it.
-                            -->
-                            <input type="checkbox" />
-                            
-                            <!--
-                            Some spans to act as a hamburger.
-                            
-                            They are acting like a real hamburger,
-                            not that McDonalds stuff.
-                            -->
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            
-                            <!--
-                            Too bad the menu has to be inside of the button
-                            but hey, it's pure CSS magic.
-                            -->
-                            <ul id="menu">
-                                <a href="index.html"><li>Home</li></a>
-                                <a href="about-me.html"><li>About</li></a>
-                                <a href="portfolio.html"><li>Portfolio</li></a>
-                                <a href="blog.html"><li>Blog</li></a>
-                                <a href="bio.html"><li>Bio</li></a>
-                                <a href="whats-on-your-mind.html"><li>What's on your mind?</li></a>
-                                <a href="mailto:veries@me.com"><li>Email Me</li></a>
+                <div class="header-title">
+                    <!-- New Hamburger Menu -->
+                    <nav class="navbar navbar-expand-lg bg-dark">
+                        <div class="container-fluid">
+                          <h4 class="navbar-brand">My Portfolio Home</h4>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="about-me.html">About Me</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Bio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">What's on your mind?</a>
+                              </li>
+                              
+                        
                             </ul>
-                            </div>
-                        </nav>
-                    <!-- End Hamburger Menu -->
-
-                    <div id="page-title">
-                        <h1>Portfolio Home</h1>
-                    </div>
-                </div>
-                
-                <div id="sect-01-top-nav" class="col-md-7 d-flex justify-content-md-between justify-content-md-end">
-                    <a href="index.html">Home</a>
-                    <a href="about-me.html">About Me</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="bio.html">Bio</a>
-                    <a href="whats-on-your-mind.html">What's on your mind?</a>
-                    <a href="mailto:veries@me.com">Email Me</a>
-                </div>
-                <div id="top-nav-button" class="col-md-2">
-                    <button type="button" class="btn btn-dark"><a href="sign-up.html">Sign Up</a></button>
+                            <form class="d-flex" role="search">
+                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-light" type="submit">Search</button>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
+                     <!-- End New Hamburger Menu -->
                 </div>
             </div>
         </div>
@@ -234,7 +217,7 @@
                     <a href="https://www.microsoft.com/en-us/?ql=3" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-microsoft" viewBox="0 0 16 16">
                         <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
                       </svg></a>
-                      <a href="https://www.apple.com/"target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                      <a href="https://www.apple.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
                         <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
                         <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
                       </svg></a>

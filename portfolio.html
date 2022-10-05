@@ -15,26 +15,66 @@
 <body>
     <!-- Header -->
     <header class="top-header">
-        <div id="sect-01-cont" class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1 class="header-title">My Portfolio</h1>
-                </div>
-                <div id="sect-01-top-nav" class="col-md-6 d-flex justify-content-md-between justify-content-md-end">
-                    <a href="index.html">Home</a>
-                    <a href="about-me.html">About Me</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="bio.html">Bio</a>
-                    <a href="whats-on-your-mind.html">What's on your mind?</a>
-                    <a href="mailto:veries@me.com">Email Me</a>
-                </div>
-                <div id="top-nav-button" class="col-md-2">
-                    <button type="button" class="btn btn-dark"><a href="sign-up.html">Sign Up</a></button>
-                </div>
-            </div>
-        </div>
-    </header>
+      <div id="sect-01-cont" class="container-fluid">
+          <div class="row">
+              <div class="col-md-3 header-title d-flex">
+                  <!-- hamburger-menu -->
+                                      <!--    Made by Erik Terwan    -->
+                      <!--   24th of November 2015   -->
+                      <!--        MIT License        -->
+                      <nav role="navigation d-flex">
+                          <div id="menuToggle">
+                          <!--
+                          A fake / hidden checkbox is used as click reciever,
+                          so you can use the :checked selector on it.
+                          -->
+                          <!-- <input type="checkbox" /> -->
+                          
+                          <!--
+                          Some spans to act as a hamburger.
+                          
+                          They are acting like a real hamburger,
+                          not that McDonalds stuff.
+                          -->
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          
+                          <!--
+                          Too bad the menu has to be inside of the button
+                          but hey, it's pure CSS magic.
+                          -->
+                          <ul id="menu">
+                              <a href="index.html"><li>Home</li></a>
+                              <a href="about-me.html"><li>About</li></a>
+                              <a href="portfolio.html"><li>Portfolio</li></a>
+                              <a href="blog.html"><li>Blog</li></a>
+                              <a href="bio.html"><li>Bio</li></a>
+                              <a href="whats-on-your-mind.html"><li>What's on your mind?</li></a>
+                              <a href="mailto:veries@me.com"><li>Email Me</li></a>
+                          </ul>
+                          </div>
+                      </nav>
+                  <!-- End Hamburger Menu -->
+
+                  <div id="page-title">
+                      <h1 class="header-title">Portfolio</h1>
+                  </div>
+              </div>
+              
+              <div id="sect-01-top-nav" class="col-md-9">
+                  <nav class="nav justify-content-md-between d-none d-lg-flex">
+                  <a href="index.html" class="nav-link">Home</a>
+                  <a href="about-me.html" class="nav-link">About Me</a>
+                  <a href="portfolio.html" class="nav-link">Portfolio</a>
+                  <a href="blog.html" class="nav-link">Blog</a>
+                  <a href="bio.html" class="nav-link">Bio</a>
+                  <a href="whats-on-your-mind.html" class="nav-link">What's on your mind?</a>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
 
     <!-- Main Body Content -->
     <main>
