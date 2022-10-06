@@ -656,9 +656,7 @@ hr{
         margin-left: 20%;
     }
 
-    #sect-03-cont{
-        padding-bottom: 34%;
-    }
+    
 
 }
 
@@ -783,6 +781,12 @@ hr{
 
     .section-02b-cont-top-set2{
         padding: 400px;
+    }
+
+    #sect-03-cont-play-button{
+        
+        padding-right: 8%;
+        padding-bottom: 75%;
     }
 
 }
