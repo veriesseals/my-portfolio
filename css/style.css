@@ -84,6 +84,24 @@
     font-family: 'Barlow', sans-serif;
 }
 
+#navbarSupportedContent ul li a:link {
+    text-decoration: none;
+}
+
+#navbarSupportedContent ul li a:visted {
+    text-decoration: none;
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: #64696d;
+    text-decoration: none;
+}
+
+#navbarSupportedContent ul li a:active {
+    text-decoration: none;
+}
+
+
 /* ----------------------------------- */
 /* main Section 2 */
 
