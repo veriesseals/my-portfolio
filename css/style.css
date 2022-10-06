@@ -4,12 +4,6 @@
 
 /* ----------------------------------- */
 /* Section 1 */
-/* .hamburger-menu{
-    padding-top: 8%;
-    padding-right: 1%;
-} */
-
-
 
 #sect-01-cont{
     width: 100%;
@@ -76,9 +70,14 @@
 /* Hamburger Menu*/
 .navbar-brand{
     color: whitesmoke;
-    font-size: 22px;
+    font-size: 24px;
     font-family: 'Barlow', sans-serif;
 }
+
+#noHover{
+    pointer-events: none;
+}
+
 #navbarSupportedContent ul li a{
     color: whitesmoke;
     font-family: 'Barlow', sans-serif;
@@ -208,13 +207,6 @@ hr{
 .sect-03-cont-article{
     padding-top: 6%;
 }
-
-/* .section-03-cont-block {
-    padding-left: 15%;
-
-} */
-
-
 
 #sect-03-cont{
     background-color: #64696d;
@@ -807,8 +799,14 @@ hr{
 
     #top-nav-button{
         padding-top: 1%;
-        
-        
+    }
+
+}
+
+@media (max-width:1179px) {
+    #sect-03-cont{
+        padding-top: 106px;
+        padding-bottom: 106px;
     }
 }
 
