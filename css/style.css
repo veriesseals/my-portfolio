@@ -14,52 +14,6 @@
     font-size: 24px;
 }
 
-#page-title {
-    padding-top: 4%;
-    padding-left: 20%;
-}
-
-#sect-01-top-nav {
-    padding-top: 1%;
-    text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
-}
-
-#sect-01-top-nav a{
-    color: #eef3f7;
-    font-size: 18px;
-}
-
-#sect-01-top-nav a:link {
-    text-decoration: none;
-}
-
-#sect-01-top-nav a:visted {
-    text-decoration: none;
-}
-
-#sect-01-top-nav a:hover {
-    color: #64696d;
-    text-decoration: none;
-}
-
-#sect-01-top-nav a:active {
-    color: #64696d;
-    text-decoration: none;
-}
-
-#top-nav-button {
-    padding-top: .4%;
-    padding-left: 4%;
-    font-family: 'Barlow', sans-serif;
-}
-
-#top-nav-button a{
-    color: #eef3f7;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
 .header-title{
     color: #eef3f7;
     text-transform: uppercase;
@@ -132,14 +86,13 @@ hr{
 }
 
 /* ----------------------------------- */
-/* main Section 2a */
+/* Main Section 2a Card cont*/
 
 #section-02a-cont-top{
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #64696d;
 }
-
 
 .section-02a-cont-top-set1{
     padding-left: 6%;
