@@ -94,6 +94,12 @@ hr{
     background-color: #64696d;
 }
 
+#section-02a-cont-top1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #64696d;
+}
+
 .section-02a-cont-top-set1{
     padding-left: 6%;
 }
@@ -157,6 +163,7 @@ hr{
 
 /* ----------------------------------- */
 /* Login Sect 3 */
+
 .sect-03-cont-article{
     padding-top: 6%;
 }
@@ -430,6 +437,10 @@ hr{
     background-color: #242e38;
 }
 
+#horizontal-line3 {
+    padding-top: 20px;
+    background-color: #242e38;
+}
 /* ----------------------------------- */
 /* Media Queries*/
 
@@ -464,13 +475,10 @@ hr{
         text-align: center;
     }
 
-    #section-02a-cont-top{
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 40px;
-        background-color: #64696d;
-    }
+    .section-02a-cont-top-set1{
+        margin-left: -24%;
 
+    }
     
     #sect-03-cont-img1 img{
         padding-left: 20%;
@@ -486,13 +494,6 @@ hr{
         justify-content: center;
     }
 
-    .section-02a-cont-top-set1{
-        padding-left: 11%;
-    }
-    
-    .section-02a-cont-top-set2{
-        padding-left: 11%;
-    }
 
     #sect-03-blog-div{
         margin-top: 10%;
@@ -507,13 +508,9 @@ hr{
         margin-top: 5%;
     }
 
-    #article-line1{
+    .article-line1{
         margin-left: 1%;
     }
-
-    /* #blog-items-right div{
-        margin-left: 55px;
-    } */
 
     #sect-03-cont-submit-button button{
         display: flex;
@@ -537,11 +534,6 @@ hr{
         flex-direction: column;
         padding-left: 18%;
     }
-
-    /* .bottom-nav-list-items-vslash {
-        display: none;
-        visibility: hidden;
-    } */
 
     #copyright{
         padding-top: 5%;
@@ -656,6 +648,10 @@ hr{
     }
 
     #section-02a-cont-top{
+        padding-left: 30%;
+    }
+
+    #section-02a-cont-top1{
         padding-left: 30%;
     }
 
