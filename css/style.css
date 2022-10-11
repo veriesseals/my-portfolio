@@ -508,6 +508,10 @@ hr{
         margin-top: 5%;
     }
 
+    #sect-03-cont form{
+        padding-right: 8%;
+    }
+
     .article-line1{
         margin-left: 1%;
     }
@@ -538,6 +542,7 @@ hr{
     #copyright{
         padding-top: 5%;
     }
+
 
 }
 
@@ -728,6 +733,11 @@ hr{
         
         padding-right: 8%;
         padding-bottom: 75%;
+    }
+
+    #sect-03-cont form{
+        padding-right: 8%;
+        padding-bottom: 5.5%;
     }
 
 }
